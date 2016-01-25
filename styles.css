@@ -1,0 +1,77 @@
+body {
+    color:turquoise;
+    background: url("https://lh3.googleusercontent.com/-tMY2iG5mf7k/VgFlNoBLBRI/AAAAAAACDCc/m9HLuY2Bw3c/w506-h750/tumblr_mz8yzmi1XJ1ru39xmo1_500.gif");
+     background-repeat:no-repeat;
+    background-size:cover;
+
+}
+
+.gamer{
+    width: 800px;
+    height: 300px;
+}
+.anime{
+    width: 800px;
+    height: 300px;
+}
+
+/*.about{
+    width: 800px;
+    height: 300px;
+}*/
+.cube{
+    background:url("http://www.thisiscolossal.com/wp-content/uploads/2014/06/2.gif");
+    background-repeat:no-repeat;
+      background-size:cover;
+}
+.square{
+    background: url("http://lucyroseclarke.co.uk/blog/wp-content/uploads/2012/10/3.gif");
+}
+.box{
+    background: url("http://38.media.tumblr.com/2bd24e4d9ad060b7a25b29a9649125d3/tumblr_msrxm5Fb111ru39xmo1_250.gif");
+    
+}
+
+p{
+    color:white;
+    font-size:20px;
+     text-shadow: 1px 1px black;
+    
+}
+
+.shade{
+    background:  rgba(0,0,0,0.8);
+}
+li {
+     float:left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+     background:  rgba(0,0,0,0.8);
+    font-style: italic;
+    
+}
+
+li {
+    float: left;
+     padding: 0px 50px 0px 10px;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 79px;
+    text-decoration: none;
+}
+
+li a:hover {  
+    background-color: #111;
+}
+.active {
+    background-color: #111;
+}
