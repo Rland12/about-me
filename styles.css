@@ -5,7 +5,12 @@ body {
     background-size:cover;
 
 }
-
+/*http://thirdmonk.net/postcont/2014/06/8.gif*/
+img{
+    display:block;
+     margin-left: auto;
+    margin-right: auto;
+}
 .gamer{
     width: 800px;
     height: 300px;
@@ -20,16 +25,17 @@ body {
     height: 300px;
 }*/
 .cube{
-    background:url("http://www.thisiscolossal.com/wp-content/uploads/2014/06/2.gif");
-    background-repeat:no-repeat;
-      background-size:cover;
+    background:url("http://media2.giphy.com/media/4ZP2Otq5tQbSM/giphy.gif");
+        display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .square{
     background: url("http://lucyroseclarke.co.uk/blog/wp-content/uploads/2012/10/3.gif");
 }
 .box{
-    background: url("http://38.media.tumblr.com/2bd24e4d9ad060b7a25b29a9649125d3/tumblr_msrxm5Fb111ru39xmo1_250.gif");
-    
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/cf/84/c9/cf84c9a13b688e560e78b7e7e742ff8e.gif");
+     /*background: url("http://www.cssdesignawards.com/articleimages/2014/20140303/matthew-divito.gif");*/
 }
 
 p{
@@ -39,11 +45,12 @@ p{
     
 }
 
+h2{
+     background:  rgba(0,0,0,0.8);
+}
+
 .shade{
     background:  rgba(0,0,0,0.8);
-}
-li {
-     float:left;
 }
 
 ul {
@@ -51,7 +58,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-     background:  rgba(0,0,0,0.8);
+     background:rgba(0,0,0,0.8);
     font-style: italic;
     
 }
@@ -73,5 +80,8 @@ li a:hover {
     background-color: #111;
 }
 .active {
-    background-color: #111;
+   background-color: #111;
+}
+.right {
+   float:right;
 }

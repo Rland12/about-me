@@ -2,7 +2,12 @@
 <html>
     <head>
         <title>Rashad Landrum Webpage</title>
+        
+	     
         <link rel="stylesheet" href="styles.css" type="text/css"/>
+         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+       <script src="Site.js"></script>
+       <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
     </head>
     <body>
        <!--1/5/16-->
@@ -12,18 +17,33 @@
         <li><a class="active" href="index.html">Index</a></li>
         <li><a href="games.html">Games</a></li>
         <li><a href="anime.html">Anime</a></li>
-        <ul style="float:right;list-style-type:none;">
-        <li><a href="about.html">About Me</a></li>
-        </ul>
+        <li class="right"><a href="about.html">About Me</a></li>
     </ul>
+
     <br>
-     <p>On this site you can talk to others anonymously in a variety of categories,
+     <p class="shade">On this site you can talk to others anonymously in a variety of categories,
      so far there are only games and anime topics. My goal for this site is for it to blossom like a flower
      and take over the internet by storm ^^. In this section of the website, I will post future updates bringing not only new categories,
      but ways to make the site more interactive and maybe some "rules" to keep things in "order".^^</p>
      
-     <h2>Updates</h2>
+     <h2>Updates</h2> 
+     <p class="shade"><b>1/5/16-</b>A site is born!</p>
      
-     <p><b>1/5/16-</b>A site is born!</p>
+     	<div class="container">
+		<div class="row" id="search-bar">
+			<div class="col-md-10">
+				<input type="text" class="form-control input-lg " id="message" placeholder="Type in your message">
+			</div>
+			<div class="col-md-2">
+				<button type="submit" id="post-btn" class="btn btn-primary btn-lg btn-block">Post</button>
+			</div>
+		</div>
+
+		<div id="wall">
+			
+		</div>
+		<img class="blank">
+		
+	</div>
     </body>
 </html>
