@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Rashad Landrum Webpage</title>
-        <link rel="stylesheet" href="styles.css" type="text/css"/>
-         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-       <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
-        <script src="site.js"></script>
-    </head>
-    <body>
-       <!--1/5/16-->
-        <h1>Welcome to my first website!</h1>
-        
+
+<head>
+    <title>Rashad Landrum Webpage</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="site.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+    <!--1/5/16-->
+    <h1>Welcome to my first website!</h1>
+
     <ul>
         <li><a class="active" href="index.html">Index</a></li>
         <li><a href="games.html">Games</a></li>
@@ -19,29 +21,23 @@
     </ul>
 
     <br>
-     <p class="shade">On this site you can talk to others anonymously in a variety of categories,
-     so far there are only games and anime topics. My goal for this site is for it to blossom like a flower
-     and take over the internet by storm ^^. In this section of the website, I will post future updates bringing not only new categories,
-     but ways to make the site more interactive and maybe some "rules" to keep things in "order".^^</p>
-     
-     <h2>Updates</h2> 
-     <p class="shade"><b>1/5/16-</b>A site is born!</p>
-     
-     	<div class="container">
-		<div class="row" id="search-bar">
-			<div class="col-md-10">
-				<input type="text" class="form-control input-lg " id="message" placeholder="Type in your message">
-			</div>
-			<div class="col-md-2">
-				<button type="submit" id="post-btn" class="btn btn-primary btn-lg btn-block">Post</button>
-			</div>
-		</div>
+    <p class="shade">On this site you can talk to others anonymously in a variety of categories, so far there are only games and anime topics. My goal for this site is for it to blossom like a flower and take over the internet by storm ^^. In this section of the website,
+        I will post future updates bringing not only new categories, but ways to make the site more interactive and maybe some "rules" to keep things in "order".^^</p>
 
-		<div id="wall">
-			
-		</div>
-		<img class="blank">
-		
-	</div>
-    </body>
+    <h2>Updates</h2>
+
+    <p class="shade"><b>1/5/16 -</b> A site is born!</p>
+
+    <form>
+        
+        <input type="text" placeholder="Message" id="text">
+
+        <input id="enter" type="submit" value="Send">
+        
+    </form>
+    
+    <div id= "wall"></div>
+
+</body>
+
 </html>

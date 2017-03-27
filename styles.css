@@ -1,56 +1,76 @@
 body {
-    color:turquoise;
+    color: turquoise;
     background: url("https://lh3.googleusercontent.com/-tMY2iG5mf7k/VgFlNoBLBRI/AAAAAAACDCc/m9HLuY2Bw3c/w506-h750/tumblr_mz8yzmi1XJ1ru39xmo1_500.gif");
-     background-repeat:no-repeat;
-    background-size:cover;
-
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Arvo', serif;
 }
+
+
 /*http://thirdmonk.net/postcont/2014/06/8.gif*/
-img{
-    display:block;
-     margin-left: auto;
-    margin-right: auto;
-}
-.gamer{
-    width: 800px;
-    height: 300px;
-}
-.anime{
-    width: 800px;
-    height: 300px;
-}
 
-/*.about{
-    width: 800px;
-    height: 300px;
-}*/
-.cube{
-    background:url("http://media2.giphy.com/media/4ZP2Otq5tQbSM/giphy.gif");
-        display: block;
+img {
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
-.square{
+
+
+/*game image*/
+
+.gamer {
+    width: 800px;
+    height: 300px;
+}
+
+
+/*anime image*/
+
+.anime {
+    width: 800px;
+    height: 300px;
+}
+
+
+/*game body img*/
+
+.cube {
+    background: url("http://media2.giphy.com/media/4ZP2Otq5tQbSM/giphy.gif");
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* anime body img*/
+
+.square {
     background: url("http://lucyroseclarke.co.uk/blog/wp-content/uploads/2012/10/3.gif");
 }
-.box{
+
+
+/*about body img*/
+
+.box {
     background: url("https://s-media-cache-ak0.pinimg.com/originals/cf/84/c9/cf84c9a13b688e560e78b7e7e742ff8e.gif");
-     /*background: url("http://www.cssdesignawards.com/articleimages/2014/20140303/matthew-divito.gif");*/
+    /*background: url("http://www.cssdesignawards.com/articleimages/2014/20140303/matthew-divito.gif");*/
 }
 
-p{
-    color:white;
-    font-size:20px;
-     text-shadow: 1px 1px black;
-    
+p {
+    color: white;
+    font-size: 20px;
+    text-shadow: 1px 1px black;
 }
 
-h2{
-     background:  rgba(0,0,0,0.8);
+h2 {
+    background: rgba(0, 0, 0, 0.8);
 }
 
-.shade{
-    background:  rgba(0,0,0,0.8);
+
+/*shade for p in index & about*/
+
+.shade {
+    background: rgba(0, 0, 0, 0.8);
 }
 
 ul {
@@ -58,14 +78,13 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-     background:rgba(0,0,0,0.8);
+    background: rgba(0, 0, 0, 0.8);
     font-style: italic;
-    
 }
 
 li {
     float: left;
-     padding: 0px 50px 0px 10px;
+    padding: 0px 50px 0px 10px;
 }
 
 li a {
@@ -76,12 +95,37 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {  
+li a:hover {
     background-color: #111;
 }
+
 .active {
-   background-color: #111;
+    background-color: #111;
 }
+
 .right {
-   float:right;
+    float: right;
+}
+
+input {
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+#enter {
+    font-size: 20px;
+    color: black;
+    border-radius: 12px;
+    background-color: turquoise;
+    transition: .9s;
+}
+
+#enter:hover {
+    font-size: 25px;
+    color: turquoise;
+    background-color: black;
+}
+
+#wall{
+    
 }
